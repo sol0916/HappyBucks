@@ -1,24 +1,24 @@
 package hb.project.vo;
 
-public class ProductVO {
+public class ProductsVO {
 	
 	//field
-	int productNo;
-	String productName;
-	int productPrice;
+	int productNo; //상품번호
+	String productName; //상품명
+	int productPrice; //상품가격
 	
 	//생성자
-	public ProductVO() {
+	public ProductsVO() {
 	}
-
-	public ProductVO(int productNo, String productName, int productPrice) {
+	
+	public ProductsVO(int productNo, String productName, int productPrice) {
 		super();
 		this.productNo = productNo;
 		this.productName = productName;
 		this.productPrice = productPrice;
 	}
 
-	
+
 	//getter, setter
 	public int getProductNo() {
 		return productNo;
